@@ -530,30 +530,24 @@
     font-size: $type-size-7;
   }
 
-  li a {
+  a {
     display: block;
     padding: 0.25rem 0.75rem;
     color: $muted-text-color;
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
-    
-    &:hover{
+
+    &:hover {
       color: $text-color;
     }
   }
-  
-  li ul li a { /* hides the list for the "first" items in the menu */
-    display: none;
-  }
-  
-  li:hover ul li{ /* expands with a list for the "first" items in the menu */
-    display: block;
+
+  li ul > li a {
     padding-left: 1.25rem;
     font-weight: normal;
-    color: $text-color;
   }
-  
+
   li ul li ul > li a {
     padding-left: 1.75rem;
   }
