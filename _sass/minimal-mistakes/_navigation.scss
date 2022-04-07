@@ -538,35 +538,24 @@
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
-    &:hover {
+    &:hover { 
       color: $text-color;
     }
   }
   
-  li a { /* controls courses table of contents menu for the first list item (proptixiako, metaptixiako, didaktoriko) */
+  li ul > li a { /* hides the list for the "first" items in the menu */
     display: none;
     padding-left: 1.25rem;
     font-weight: normal;
-    
-    &:hover {
-      color: $text-color;
-    }
-    
-    &:click {
-      display: block;
-    }
   }
-  li ul > li a {
-    display: none;
+  
+  li:hover ul li{ /* expands with a list for the "first" items in the menu */
+    display: block;
     padding-left: 1.25rem;
     font-weight: normal;
     
     &:hover {
       color: $text-color;
-    }
-    
-    &:click {
-      display: block;
     }
   }
   
