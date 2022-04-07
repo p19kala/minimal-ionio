@@ -545,11 +545,9 @@
   
   li ul > li a { /* hides the list for the "first" items in the menu */
     display: none;
-    padding-left: 1.25rem;
-    font-weight: normal;
   }
   
-  li a:hover ul{ /* expands with a list for the "first" items in the menu */
+  li ul:hover li a{ /* expands with a list for the "first" items in the menu */
     display: block;
     padding-left: 1.25rem;
     font-weight: normal;
