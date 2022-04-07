@@ -530,7 +530,7 @@
     font-size: $type-size-7;
   }
 
-  a {
+  li a {
     display: block;
     padding: 0.25rem 0.75rem;
     color: $muted-text-color;
@@ -543,11 +543,11 @@
     }
   }
   
-  li ul > li a { /* hides the list for the "first" items in the menu */
+  li ul li a { /* hides the list for the "first" items in the menu */
     display: none;
   }
   
-  li:hover ul{ /* expands with a list for the "first" items in the menu */
+  li:hover ul li{ /* expands with a list for the "first" items in the menu */
     display: block;
     padding-left: 1.25rem;
     font-weight: normal;
