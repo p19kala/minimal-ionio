@@ -549,14 +549,11 @@
     font-weight: normal;
   }
   
-  li:hover ul li{ /* expands with a list for the "first" items in the menu */
+  li a:hover ul{ /* expands with a list for the "first" items in the menu */
     display: block;
     padding-left: 1.25rem;
     font-weight: normal;
-    
-    &:hover {
-      color: $text-color;
-    }
+    color: $text-color;
   }
   
   li ul li ul > li a {
