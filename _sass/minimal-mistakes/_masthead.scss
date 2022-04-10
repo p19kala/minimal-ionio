@@ -6,7 +6,7 @@
   position: sticky; /* these 3 lines */
   top: 0;           /*make the nav bar*/
   z-index: 999;  /* stay on top of page while scrolling*/
-  background: #f3f6f6; /* fill nav bar border with background color*/
+  background-color: #f3f6f6; /* fill nav bar border with background color*/
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -45,7 +45,7 @@
 .masthead-alt {
   z-index: 999;
   height: 100px;
-  background-color: rgba(0,0,0, 0.8);
+  background-color: #f3f6f6;
   position: sticky;
   top: 0;
   width: 100%;
