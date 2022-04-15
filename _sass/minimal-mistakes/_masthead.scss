@@ -38,46 +38,6 @@
   }
 }
 
-.masthead__sticky {
-  
-  position: sticky; /* these 3 lines */
-  top: 0;           /*make the nav bar*/
-  z-index: 999;  /* stay on top of page while scrolling*/
-  background: #f3f6f6; /* fill nav bar border with background color*/
-  border-bottom: 1px solid $border-color;
-  -webkit-animation: $intro-transition;
-  animation: $intro-transition;
-  -webkit-animation-delay: 0.15s;
-  animation-delay: 0.15s;
-
-  &__inner-wrap {
-    @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    max-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-family: $sans-serif-narrow;
-
-    @include breakpoint($x-large) {
-      max-width: $max-width;
-    }
-
-    nav {
-      z-index: 10;
-    }
-
-    a {
-      text-decoration: none;
-    }
-  }
-}
-
 .site-logo img {
   max-height: 2rem;
 }
