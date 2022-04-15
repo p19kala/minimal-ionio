@@ -3,10 +3,6 @@
    ========================================================================== */
 
 .masthead {
-  position: sticky; /* these 3 lines */
-  top: 0;           /*make the nav bar*/
-  z-index: 999;  /* stay on top of page while scrolling*/
-  background: #f3f6f6; /* fill nav bar border with background color*/
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
