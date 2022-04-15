@@ -9,6 +9,10 @@
 @import "minimal-ionio";    // ionio css
 
 .masthead {
+  position: sticky; /* these 3 lines */
+  top: 0;           /*make the nav bar*/
+  z-index: 999;  /* stay on top of page while scrolling*/
+  background: #f3f6f6; /* fill nav bar border with background color*/
   border-top: 5px solid $primary-color;
 }
 
